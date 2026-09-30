@@ -1,6 +1,6 @@
 # Reproducer: Nested JAR JSP Loading Fails with Tomcat Embed 11.0.25
 
-Sample reproducer demonstrating an `IllegalStateException: Zip file closed` when resolving JSP files located in nested JARs under Spring Boot 4.1.1 and Tomcat Embed 11.0.25.
+Sample reproducer demonstrating an `IllegalStateException: Zip file closed` when resolving JSP files located in nested JARs under Spring Boot 4.1.1 and Tomcat Embed 11.0.25 or 11.0.26. The following description will use 11.0.25 as the problem was introduced with this version and has not yet been solved.
 
 ## Description
 
